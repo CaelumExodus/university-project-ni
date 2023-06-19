@@ -2,7 +2,7 @@
 <div class="bg-white rounded-lg shadow-lg p-4 mb-10">
   <h3 class="text-xl font-semibold mb-4">{{ dataset.title }}</h3>
   <div class="overflow-hidden">
-    <p-chart [type]="dataset.type" [data]="dataset.data" [options]="dataset" #chartRef></p-chart>
+    <p-chart [type]="dataset.type" [data]="dataset.data" [options]="dataset.options"></p-chart>
   </div>
 </div>
 </ng-container>

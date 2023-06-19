@@ -10,6 +10,4 @@ import { data } from "autoprefixer";
 export class ChartWrapperComponent {
 
   protected readonly chartsData = chartsData;
-  protected readonly data = data;
-
 }
