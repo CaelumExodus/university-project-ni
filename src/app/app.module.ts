@@ -14,7 +14,7 @@ import { ChartWrapperComponent } from './components/chart-wrapper/chart-wrapper.
 import { ChartModule } from "primeng/chart";
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, '/university-project-ni/assets/i18n/', '.json');
 }
 
 @NgModule({
